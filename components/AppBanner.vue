@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 const preferNoBanner = () => {
   localStorage.setItem('preferNoBanner', 'true')
   document.querySelector('html')?.classList.add('hide-banner')
@@ -16,7 +16,7 @@ onMounted(() => {
 //   useHead({
 //     script: [
 //       {
-//         key: 'prehydrate-workshop-banner',
+//         key: 'prehydrate-ad-banner',
 //         innerHTML: `
 //             if (localStorage.getItem('preferNoBanner') === 'true') {
 //               document.querySelector('html').classList.add('hide-banner')
