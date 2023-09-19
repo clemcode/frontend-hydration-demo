@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Hydration demos
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repo contains a few demos of Nuxt 3 hydration problems and solutions.
 
 ## Setup
 
